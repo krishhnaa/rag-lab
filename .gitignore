@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+data/index/
+.DS_Store
+
+# Local development docs - never committed
+data/docs/*
+!data/docs/.gitkeep

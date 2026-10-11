@@ -1,0 +1,10 @@
+{"question": "How many vacation days do employees with 4 years of tenure get?", "expected_phrases": ["20 days", "3–5 years"], "source_doc": "vacation-policy"}
+{"question": "How many unused vacation days can roll over to next year?", "expected_phrases": ["5 unused days", "roll over"], "source_doc": "vacation-policy"}
+{"question": "Can a new employee take vacation in their first month?", "expected_phrases": ["90 days", "probationary period"], "source_doc": "vacation-policy"}
+{"question": "What is the home office stipend for remote employees?", "expected_phrases": ["$750", "$75 per month"], "source_doc": "remote-work-policy"}
+{"question": "Which days must hybrid employees be on-site?", "expected_phrases": ["Tuesday through Thursday"], "source_doc": "remote-work-policy"}
+{"question": "How soon must HR be notified before a remote employee moves states?", "expected_phrases": ["30 days"], "source_doc": "remote-work-policy"}
+{"question": "What are the password requirements?", "expected_phrases": ["14 characters", "90 days"], "source_doc": "security-policy"}
+{"question": "Where should suspected phishing be reported and how quickly?", "expected_phrases": ["security@northwind.example", "1 hour"], "source_doc": "security-policy"}
+{"question": "Is SMS allowed for multi-factor authentication?", "expected_phrases": ["not allowed", "authenticator app"], "source_doc": "security-policy"}
+{"question": "What equipment does the company provide to remote workers?", "expected_phrases": ["laptop", "monitor", "keyboard", "mouse"], "source_doc": "remote-work-policy"}

@@ -1,0 +1,30 @@
+# RAG Lab configuration — every important knob lives here.
+ollama:
+  base_url: http://localhost:11434
+  embed_model: nomic-embed-text
+  llm_model: llama3.1
+
+chunking:
+  strategy: recursive        # fixed | recursive
+  chunk_size: 800            # characters
+  chunk_overlap: 120         # characters
+
+retrieval:
+  top_k: 5
+  hybrid: true               # RRF fusion of dense + BM25
+  rrf_k: 60
+  bm25_k: 20                 # candidates pulled from BM25 before fusion
+
+paths:
+  docs: data/docs
+  index: data/index
+  evals: evals/eval_set.jsonl
+
+generation:
+  temperature: 0.1
+  max_context_chars: 6000
+
+evaluation:
+  # Model for --judge. Empty = same as llm_model. A different model avoids
+  # the generator grading its own answers (e.g. `ollama pull qwen2.5`).
+  judge_model:

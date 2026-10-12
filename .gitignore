@@ -7,3 +7,4 @@ data/index/
 # Local development docs - never committed
 data/docs/*
 !data/docs/.gitkeep
+recordings/
